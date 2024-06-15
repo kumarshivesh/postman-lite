@@ -62,6 +62,7 @@ The `json-server` will be used to mock API endpoints for testing purposes. In `d
     { "id": 82, "title": "jgn", "body": "qpx", "userId": 82 }
   ]
 }
+```
 
 Install json-server globally if you haven't already:
 ```bash

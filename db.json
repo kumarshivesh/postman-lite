@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "93",
+      "title": "Nai Naveli title",
+      "body": "Nai Naveli body",
+      "userId": 93
+    },
+    {
+      "id": "94",
+      "title": "Nai Naveli Title",
+      "body": "Nai Naveli Body",
+      "userId": 94
+    }
+  ]
+}

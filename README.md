@@ -86,11 +86,63 @@ npm run dev
 
 The application should now be running on ```bash http://localhost:3000.```
 
+## App Demo
 
-### License
+This section provides a step-by-step procedure to make GET, POST, PUT, and DELETE requests from the UI.
+
+### 1. Making a GET Request
+
+1. Open your browser and go to ```bash http://localhost:3000```. Make sure `js-server` (i.e.,```bash http://localhost:3001```) is running.
+2. Select the Method: Choose `GET` from the dropdown menu.
+3. Enter the URL: Type ```bash http://localhost:3001/posts/81``` into the URL field. Make sure object data with id: 81 is present in `db.json`. 
+4. Send the Request: Click the "Send Request" button.
+5. View the Response: The response will be displayed below the form.
+
+### 2. Making a POST Request
+
+1. Open your browser and go to ```bash http://localhost:3000```. Make sure `js-server` (i.e.,```bash http://localhost:3001```) is running.
+2. Select the Method: Choose `POST` from the dropdown menu.
+3. Enter the URL: Type ```bash http://localhost:3001/posts``` into the URL field. 
+4. Enter the Request Body:
+```json
+{
+  "posts": [
+    { "id": 83, "title": "lkt", "body": "kol", "userId": 83 },
+  ]
+}
+```
+5. Send the Request: Click the "Send Request" button.
+6. View the Response: The response will be displayed below the form.
+
+### 3. Making a PUT Request
+
+1. Open your browser and go to ```bash http://localhost:3000```. Make sure `js-server` (i.e.,```bash http://localhost:3001```) is running.
+2. Select the Method: Choose `PUT` from the dropdown menu.
+3. Enter the URL: Type ```bash http://localhost:3001/posts/83``` into the URL field. Make sure object data with id: 83 is present in `db.json`. 
+4. Enter the Request Body:
+```json
+{
+  "posts": [
+    { "id": 83, "title": "updated lkt", "body": "updated kol", "userId": 83 },
+  ]
+}
+```
+5. Send the Request: Click the "Send Request" button.
+6. View the Response: The response will be displayed below the form.
+
+### 4. Making a DELETE Request
+
+1. Open your browser and go to ```bash http://localhost:3000```. Make sure `js-server` (i.e.,```bash http://localhost:3001```) is running.
+2. Select the Method: Choose `DELETE` from the dropdown menu.
+3. Enter the URL: Type ```bash http://localhost:3001/posts/81``` into the URL field. Make sure object data with id: 81 is present in `db.json`. 
+4. Send the Request: Click the "Send Request" button.
+5. View the Response: The response will be displayed below the form.
+
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgements
+## Acknowledgements
 Next.js
 Prisma
 Render

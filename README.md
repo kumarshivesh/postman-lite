@@ -143,7 +143,7 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-[Next.js] (https://nextjs.org/)
-[React.js] (https://react.dev/)
-[Prisma] (https://www.prisma.io/)
-[POSTgreSQL] (https://www.postgresql.org/)
+[Next.js](https://nextjs.org/)
+[React.js](https://react.dev/)
+[Prisma](https://www.prisma.io/)
+[PostgreSQL](https://www.postgresql.org/)

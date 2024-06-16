@@ -51,7 +51,7 @@ npx prisma generate
 npx prisma migrate dev --name init
 ```
 
-### Start the json-server
+### 5. Start the json-server
 
 The `json-server` will be used to mock API endpoints for testing purposes. In `db.json` file, put some initial data:
 

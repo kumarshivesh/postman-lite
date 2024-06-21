@@ -58,8 +58,8 @@ The `json-server` will be used to mock API endpoints for testing purposes. In `d
 ```json
 {
   "posts": [
-    { "id": 81, "title": "gnf", "body": "dhf", "userId": 81 },
-    { "id": 82, "title": "jgn", "body": "qpx", "userId": 82 }
+    { "id": 51, "title": "This title of fifty-one id", "body": "This body of fifty-one id", "userId": 51 },
+    { "id": 82, "title": "This title of fifty-two id", "body": "This body of fifty-two id", "userId": 52 }
   ]
 }
 ```
@@ -94,7 +94,7 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 
 1. Open your browser and go to http://localhost:3000. Make sure `js-server` (i.e.,http://localhost:3001) is running.
 2. Select the Method: Choose `GET` from the dropdown menu.
-3. Enter the URL: Type http://localhost:3001/posts/81 into the URL field. Make sure object data with id: 81 is present in `db.json`. 
+3. Enter the URL: Type http://localhost:3001/posts/51 into the URL field. Make sure object data with id: 51 is present in `db.json`. 
 4. Send the Request: Click the "Send Request" button.
 5. View the Response: The response will be displayed below the form.
 
@@ -107,7 +107,7 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 ```json
 {
   "posts": [
-    { "id": 83, "title": "lkt", "body": "kol", "userId": 83 },
+    { "id": 53, "title": "This title of fifty-three id", "body": "This body of fifty-three id", "userId": 53 }
   ]
 }
 ```
@@ -118,12 +118,12 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 
 1. Open your browser and go to http://localhost:3000. Make sure `js-server` (i.e.,http://localhost:3001) is running.
 2. Select the Method: Choose `PUT` from the dropdown menu.
-3. Enter the URL: Type http://localhost:3001/posts/83 into the URL field. Make sure object data with id: 83 is present in `db.json`. 
+3. Enter the URL: Type http://localhost:3001/posts/53 into the URL field. Make sure object data with id: 53 is present in `db.json`. 
 4. Enter the Request Body:
 ```json
 {
   "posts": [
-    { "id": 83, "title": "updated lkt", "body": "updated kol", "userId": 83 },
+    { "id": 53, "title": "This updated title of fifty-three id", "body": "This updated body of fifty-three id", "userId": 53 }
   ]
 }
 ```
@@ -134,7 +134,7 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 
 1. Open your browser and go to http://localhost:3000. Make sure `js-server` (i.e.,http://localhost:3001) is running.
 2. Select the Method: Choose `DELETE` from the dropdown menu.
-3. Enter the URL: Type http://localhost:3001/posts/81 into the URL field. Make sure object data with id: 81 is present in `db.json`. 
+3. Enter the URL: Type http://localhost:3001/posts/52 into the URL field. Make sure object data with id: 52 is present in `db.json`. 
 4. Send the Request: Click the "Send Request" button.
 5. View the Response: The response will be displayed below the form.
 

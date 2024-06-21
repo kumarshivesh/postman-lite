@@ -105,7 +105,7 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 3. Enter the URL: Type http://localhost:3001/posts into the URL field. 
 4. Enter the Request Body:
 ```json
-  { "id": 53, "title": "This title of fifty-three id", "body": "This body of fifty-three id", "userId": 53 }
+  { "id": "53", "title": "This title of fifty-three id", "body": "This body of fifty-three id", "userId": 53 }
 ```
 5. Send the Request: Click the "Send Request" button.
 6. View the Response: The response will be displayed below the form.
@@ -117,7 +117,7 @@ This section provides a step-by-step procedure to make GET, POST, PUT, and DELET
 3. Enter the URL: Type http://localhost:3001/posts/53 into the URL field. Make sure object data with id: 53 is present in `db.json`. 
 4. Enter the Request Body:
 ```json
-  { "id": 53, "title": "This updated title of fifty-three id", "body": "This updated body of fifty-three id", "userId": 53 }
+  { "id": "53", "title": "This updated title of fifty-three id", "body": "This updated body of fifty-three id", "userId": 53 }
 ```
 5. Send the Request: Click the "Send Request" button.
 6. View the Response: The response will be displayed below the form.

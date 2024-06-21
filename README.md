@@ -88,6 +88,10 @@ The application should now be running on http://localhost:3000.
 
 ## App Demo
 
+Refer this YouTube video for App demo
+
+[![Postman Lite Demo](https://i.ibb.co/rMm5c5Y/postman-lite-thumbnail.png)](https://youtu.be/lRdpPOqZ8Ec?si=UC8d1gZaz8HgsovM)
+
 This section provides a step-by-step procedure to make GET, POST, PUT, and DELETE requests from the UI.
 
 ### 1. Making a GET Request

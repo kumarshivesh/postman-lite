@@ -58,8 +58,8 @@ The `json-server` will be used to mock API endpoints for testing purposes. In `d
 ```json
 {
   "posts": [
-    { "id": 51, "title": "This title of fifty-one id", "body": "This body of fifty-one id", "userId": 51 },
-    { "id": 52, "title": "This title of fifty-two id", "body": "This body of fifty-two id", "userId": 52 }
+    { "id": "51", "title": "This title of fifty-one id", "body": "This body of fifty-one id", "userId": 51 },
+    { "id": "52", "title": "This title of fifty-two id", "body": "This body of fifty-two id", "userId": 52 }
   ]
 }
 ```

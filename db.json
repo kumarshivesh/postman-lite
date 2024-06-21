@@ -11,12 +11,6 @@
       "title": "This title of fifty-two id",
       "body": "This body of fifty-two id",
       "userId": 52
-    },
-    {
-      "id": 56,
-      "title": "This title of fifty-three id",
-      "body": "This body of fifty-three id",
-      "userId": 56
     }
   ]
 }
